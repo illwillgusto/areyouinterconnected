@@ -1,7 +1,7 @@
 {
     "name": "Are You Interconnected",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "browser_action": {
         "default_popup": "index.html",
         "default_icon": "images.png"
@@ -9,5 +9,12 @@
     "icons": {
         "128": "images.png"
     },
-    "permissions": ["activeTab"]
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "bookmarks"
+    ],
+    "optional_permissions": [
+        "unlimitedStorage"
+    ]
 }
