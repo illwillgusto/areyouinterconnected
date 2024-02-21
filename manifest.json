@@ -1,7 +1,7 @@
 {
     "name": "Are You Interconnected",
     "version": "1.0",
-    "main_version": 1,
+    "manifest_version": 2,
     "browser_action": {
         "default_popup": "index.html",
         "default_icon": "images.png"

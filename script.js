@@ -1,4 +1,4 @@
-let message = document.getElementsByClassName("message");
+let message = document.getElementsByClassName("message")[0];
 
 let messageOnline = () => {
     message.textContent = "Internet Connection Alive";
